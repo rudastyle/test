@@ -1,0 +1,6 @@
+type Query{
+    createUser(name: String):Result
+    findUser(userNo: Int):Result
+    updateUser(userNo: Int, age: Int):Result
+    updateInput(input: UserInput):Result
+}

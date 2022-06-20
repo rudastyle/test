@@ -1,0 +1,14 @@
+type Result{
+    ret : String!
+}
+
+type UserResult{
+    userNo : Int!
+    userName : String!
+    ret : String!
+}
+
+input UserInput{
+    userNo : Int!
+    age : Int!
+}
